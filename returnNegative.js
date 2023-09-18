@@ -5,6 +5,7 @@ function makeNegative(number) {
 		if (number > 0) {
 			//result = -(number)
 			result =(number - number) - number
+			
 		} else if (number < 0){
 			result = number
 		}
