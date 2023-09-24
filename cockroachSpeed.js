@@ -1,8 +1,5 @@
-function cockroachSpeed(speed) {
-  
-	return
-
-
+function cockroachSpeed(speed){
+	return Math.round(speed / 0.036);
 
 }
-cockroachSpeed (1.08);
+console.log(cockroachSpeed (1.08));
