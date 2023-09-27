@@ -35,3 +35,5 @@ const updateLight = current => ({
 	yellow: 'red',
 	red: 'green',
 })[current]
+
+console.log (updateLight ("green"));
