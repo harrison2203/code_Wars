@@ -1,4 +1,4 @@
-function countSmileys(array) {
+function countSmileys(array){
 
     let result = 0;
     let regexNose = /[-~]/;

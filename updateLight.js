@@ -1,19 +1,19 @@
 function updateLight(current) {
   
-	let result = "";
+		let result = "";
 
-	if(current === "red"){
-			result = "green";
+		if(current === "red"){
+				result = "green";
 
-	} else if( current === "green"){
-			result = "yellow";
+		} else if( current === "green"){
+				result = "yellow";
 
-	} else {
-			result = "red";
+		} else {
+				result = "red";
 
-	}
+		}
 
-	 return result;
+		return result;
 
 }
 

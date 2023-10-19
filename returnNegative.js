@@ -1,4 +1,4 @@
-function makeNegative(number) {
+function makeNegative(number){
 
 	let result = 0;
 	
@@ -11,7 +11,7 @@ function makeNegative(number) {
 		}
 	
 		return result
-	  }
+	}
 	
 	console.log (makeNegative(1));
 	console.log (makeNegative(-5));

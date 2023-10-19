@@ -1,6 +1,6 @@
 function greet(language){
 
-const database = [ ["english", "Welcome"]
+const database = [["english", "Welcome"]
 , ["czech", "Vitejte"]
 , ["danish", "Velkomst"]
 , ["dutch", "Welkom"]
@@ -16,8 +16,7 @@ const database = [ ["english", "Welcome"]
 , ["polish", "Witamy"]
 , ["spanish", "Bienvenido"]
 , ["swedish", "Valkommen"]
-, ["welsh", "Croeso"]
-];
+, ["welsh", "Croeso"]];
 
 for (let i = 0; i < database.length; i ++){
 		if (database[i][0] === language){

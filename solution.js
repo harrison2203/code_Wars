@@ -1,11 +1,11 @@
-function solution(string) {
+function solution(string){
 
-    if (string.match(/[A-Z]/)){
-        return string.replace(/([a-z])([A-Z])/g, '$1 $2');
+	if (string.match(/[A-Z]/)){
+			return string.replace(/([a-z])([A-Z])/g, '$1 $2');
 
-    } else {
-        return string;
-    } 
+	} else {
+			return string;
+  } 
 }
 
 console.log(solution('camelCasing')); // =>  "camel Casing"

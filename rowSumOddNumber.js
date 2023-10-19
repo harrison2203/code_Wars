@@ -1,15 +1,14 @@
-function rowSumOddNumbers(number) {
+function rowSumOddNumbers(number){
 
 	let result = 0;
 	
 		for (let i = 1; i <= number; i ++){
-			if (i % 2 !== 0){
-				
-				for (let j = 1; j)
-			}
+			result += [i]
 		}
+			if(result % 2 === 0){
+			}
 	}
 
-	rowSumOddNumbers(42);
+	console.log (rowSumOddNumbers(42));
 	//rowSumOddNumbers(2);
 	
